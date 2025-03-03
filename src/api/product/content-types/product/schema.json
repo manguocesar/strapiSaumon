@@ -1,16 +1,14 @@
 {
-  "kind": "singleType",
-  "collectionName": "abouts",
+  "kind": "collectionType",
+  "collectionName": "products",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "product",
-    "description": "Write about yourself and the content you create"
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
     "url": {
       "type": "string"
